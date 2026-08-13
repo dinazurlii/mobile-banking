@@ -79,7 +79,7 @@ go test -v ./tests/...
 
 ---
 
-## 📡 REST API Reference
+## REST API Reference
 
 ### Authentication
 * `POST /api/v1/auth/register` — Open saving account & register customer profile

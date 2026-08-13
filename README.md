@@ -6,7 +6,6 @@ SimpleBank is an educational full-stack mobile banking learning platform & trans
 
 ## Architecture & Highlights
 
-![Uploading workflow.png…]()
 
 * **Database First**: All business data (users, balances, ledgers, e-wallet providers, simulator scenarios) is stored in PostgreSQL. Zero hardcoded business data in frontend or backend!
 * **Transactional Integrity**: Financial transfers and top-ups use PostgreSQL transaction blocks (`BEGIN`, `COMMIT`, `ROLLBACK`) with `FOR UPDATE` row locking to prevent race conditions or overdrafts.

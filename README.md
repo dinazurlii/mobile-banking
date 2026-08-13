@@ -4,7 +4,7 @@ SimpleBank is an educational full-stack mobile banking learning platform & trans
 
 ---
 
-## 🌟 Architecture & Highlights
+## Architecture & Highlights
 
 ```text
                +-----------------------------+
@@ -33,7 +33,7 @@ SimpleBank is an educational full-stack mobile banking learning platform & trans
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 * **Go** 1.22+
@@ -56,7 +56,7 @@ This will automatically:
 
 ---
 
-## 🔐 Seed Demo Test Accounts
+## Seed Demo Test Accounts
 
 The system pre-seeds 3 demo bank accounts with realistic balances and hashed PINs (`123456`):
 
@@ -68,7 +68,7 @@ The system pre-seeds 3 demo bank accounts with realistic balances and hashed PIN
 
 ---
 
-## 🧪 Preflight Testing
+## Preflight Testing
 
 Run unit and integration test suites anytime:
 

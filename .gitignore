@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+*.exe
+*.exe shadow
+*.dll
+*.so
+*.dylib
+
+# Environment variables & secrets
+.env
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log

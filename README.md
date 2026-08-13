@@ -1,4 +1,4 @@
-# SimpleBank — Web Mobile Banking Simulator
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/096b3fd4-c1ad-4029-bc02-9180f562c146" /># SimpleBank — Web Mobile Banking Simulator
 
 SimpleBank is an educational full-stack mobile banking learning platform & transaction processing simulator. Built with **Go (Golang)**, **React + TypeScript**, and **PostgreSQL**.
 
@@ -6,24 +6,7 @@ SimpleBank is an educational full-stack mobile banking learning platform & trans
 
 ## Architecture & Highlights
 
-```text
-               +-----------------------------+
-               |   React + TypeScript Web    |
-               |  Mobile-First Responsive UI |
-               +--------------+--------------+
-                              | REST API (JSON)
-                              v
-               +-----------------------------+
-               |     Go REST API Monolith    |
-               |  (JWT Auth, Bcrypt, Chi)    |
-               +--------------+--------------+
-                              | Transactional SQL
-                              v
-               +-----------------------------+
-               |  PostgreSQL Database        |
-               |  (Source of Truth Ledger)   |
-               +-----------------------------+
-```
+![Uploading workflow.png…]()
 
 * **Database First**: All business data (users, balances, ledgers, e-wallet providers, simulator scenarios) is stored in PostgreSQL. Zero hardcoded business data in frontend or backend!
 * **Transactional Integrity**: Financial transfers and top-ups use PostgreSQL transaction blocks (`BEGIN`, `COMMIT`, `ROLLBACK`) with `FOR UPDATE` row locking to prevent race conditions or overdrafts.
